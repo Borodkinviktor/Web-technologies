@@ -1,0 +1,40 @@
+html{
+    background-color: rgb(139, 116, 161);
+}
+h1{
+    color: red;
+}
+h2{
+    font-family: 'Gabriola', sans-serif;
+    color: yellow;
+}
+a{
+    text-decoration: none;
+    color: green;
+}
+a:hover{
+    font-size: 22px;
+    color: red
+}
+.beeg_text{
+    font-size: 24px;
+}
+ul{
+    list-style: square inside;
+}
+@font-face {
+	font-family: 'Gabriola';
+	src: url('fonts/gabriola.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/gabriola.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/gabriola.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/gabriola.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/gabriola.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/gabriola.svg#gabriola') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+img{
+    margin-left: 50px;
+    border: solid 2px red;
+}
+#first_image{
+    margin-top: 10px;
+}
